@@ -8,6 +8,9 @@
 body,
 html {
   background-color: var(--back-ground);
+  background-image: url(/assets/images/grid-background.svg);
+  background-position: center;
+  background-size: cover;
   font-family: "Raleway", sans-serif;
 }
 /* === HEADER === */
@@ -65,10 +68,9 @@ header .nav-link:hover {
 /* === HOME === */
 .home {
   padding-top: 169px;
-  height: 100vh;
-  background-image: url(/assets/grid-background.svg);
+  /* background-image: url(/assets/images/grid-background.svg);
   background-position: center;
-  background-size: cover;
+  background-size: 100%; */
 }
 .home h1 {
   font-weight: 700;
@@ -105,4 +107,78 @@ header .nav-link:hover {
   filter: blur(250px);
   z-index: -1;
   background-position: center;
+}
+/* == Cards Cripto == */
+
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+}
+.header-card .btn {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: var(--arrow-up-color-bg);
+  border: none;
+}
+.header-card {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-card .card-title {
+  text-transform: uppercase;
+  color: var(--sub-title-card);
+  font-weight: 500;
+  font-size: 18px;
+}
+.header-card span {
+  text-transform: uppercase;
+  color: var(--pure-white);
+  font-size: 18px;
+}
+.footer-card {
+  justify-content: space-between;
+  flex-direction: column;
+}
+.data-value {
+  padding-top: 20px;
+}
+.data-value span {
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--pure-white);
+}
+.data-capital {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.data-capital span {
+  font-size: 18px;
+  color: var(--sub-title-card);
+  font-weight: 500;
+}
+.market-data {
+  padding: 7px 14px;
+  background-color: var(--bg-color-mkt-up);
+  align-items: center;
+  gap: 16px;
+  width: 99px;
+  height: 38px;
+  border-radius: 50px;
+}
+.market-data .mkt-up {
+  font-size: 18px;
+  color: var(--mkt-up-color);
+  font-weight: 500;
+}
+.cripto-cards {
+  padding-top: 205px;
+  background-image: url(/assets/images/bg-cripto-cards.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
