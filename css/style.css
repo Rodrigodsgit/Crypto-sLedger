@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: var(--back-ground);
+  background-image: url(/assets/images/grid-background.svg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+}
+/* === HEADER === */
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+}
+header .btn {
+  font-weight: 700;
+  background-color: var(--btn-bg);
+  border-radius: 27px;
+  font-size: 16px;
+  padding: 10px 24px;
+  border: var(--border-btn);
+  color: var(--simple-title);
+}
+header .btn:hover {
+  background-color: var(--primary);
+  border: 1px solid transparent;
+  color: var(--simple-title);
+}
+header .fa {
+  color: var(--simple-title);
+  font-size: 24px;
+}
+/*  === NAV Style === */
+.navbar-brand {
+  font-size: 24px;
+  color: var(--simple-title);
+  font-weight: 700;
+  font-style: none;
+}
+.navbar-brand:hover {
+  color: var(--simple-title);
+}
+.navbar-brand span {
+  color: var(--primary);
+}
+header .nav-link {
+  font-weight: 600;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 28px;
+  margin-right: 28px;
+  font-size: 16px;
+  color: var(--simple-title);
+}
+header .nav-link:hover {
+  color: var(--primary);
+}
+/* === HOME === */
+.home {
+  padding-top: 169px;
+  /* background-image: url(/assets/images/grid-background.svg);
+  background-position: center;
+  background-size: 100%; */
+}
+.home h1 {
+  font-weight: 700;
+  color: var(--simple-title);
+  font-size: 36px;
+}
+.home p {
+  color: var(--sub-title);
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 18px;
+}
+.home .btn {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--btn-bg);
+  padding: 16px 72px;
+  border-radius: 27px;
+  border: var(--border-btn);
+  color: var(--simple-title);
+}
+.home .btn:hover {
+  background-color: var(--primary);
+  border: 1px solid transparent;
+  color: var(--simple-title);
+}
+
+.gradiente-home {
+  position: absolute;
+  right: 570px;
+  width: 400px;
+  height: 400px;
+  background-color: var(--secondary);
+  filter: blur(250px);
+  z-index: -1;
+  background-position: center;
+}
+/* == Cards Cripto == */
+
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+}
+.header-card .btn {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: var(--arrow-up-color-bg);
+  border: none;
+}
+.header-card {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-card .card-title {
+  text-transform: uppercase;
+  color: var(--sub-title-card);
+  font-weight: 500;
+  font-size: 18px;
+}
+.header-card span {
+  text-transform: uppercase;
+  color: var(--pure-white);
+  font-size: 18px;
+}
+.footer-card {
+  justify-content: space-between;
+  flex-direction: column;
+}
+.data-value {
+  padding-top: 20px;
+}
+.data-value span {
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--pure-white);
+}
+.data-capital {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.data-capital span {
+  font-size: 18px;
+  color: var(--sub-title-card);
+  font-weight: 500;
+}
+.market-data {
+  padding: 7px 14px;
+  background-color: var(--bg-color-mkt-up);
+  align-items: center;
+  gap: 16px;
+  width: 99px;
+  height: 38px;
+  border-radius: 50px;
+}
+.market-data .mkt-up {
+  font-size: 18px;
+  color: var(--mkt-up-color);
+  font-weight: 500;
+}
+.cripto-cards {
+  padding-top: 205px;
+  background-image: url(/assets/images/bg-cripto-cards.svg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 55%;
+}
