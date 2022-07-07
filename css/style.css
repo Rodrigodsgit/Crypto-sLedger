@@ -179,6 +179,6 @@ header .nav-link:hover {
   padding-top: 205px;
   background-image: url(/assets/images/bg-cripto-cards.svg);
   background-position: center;
-  background-repeat: repeat-y;
-  background-size: 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
