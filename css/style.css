@@ -135,6 +135,9 @@ header .nav-link:hover {
   font-weight: 500;
   font-size: 18px;
 }
+.card-information{
+  color: white;
+}
 .header-card span {
   text-transform: uppercase;
   color: var(--pure-white);
