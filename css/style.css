@@ -185,3 +185,11 @@ header .nav-link:hover {
   background-repeat: repeat-y;
   background-size: 55%;
 }
+
+.cripto-carousel {
+  padding-top: 205px;
+  background-image: url(/assets/images/bg-cripto-cards.svg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 55%;
+}
