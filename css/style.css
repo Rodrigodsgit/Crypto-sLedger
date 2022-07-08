@@ -147,7 +147,7 @@ header .nav-link:hover {
 .data-value {
   padding-top: 20px;
 }
-.data-value span {
+.data-value h1 {
   font-weight: 500;
   font-size: 32px;
   color: var(--pure-white);
