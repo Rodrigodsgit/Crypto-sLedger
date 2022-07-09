@@ -201,3 +201,32 @@ header .nav-link:hover {
 #map-container-google-1 iframe:hover{
   opacity: 100%;
 }
+
+/* == Form == */
+
+.contact{
+  
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+ 
+}
+
+.text{
+  color:var(--simple-title)
+}
+
+.form-group{
+  padding-top: 10px;
+}
+
+.form-row{
+  padding-top: 10px;
+}
+
+.textBtn{
+
+  color:var(--simple-title)
+}
