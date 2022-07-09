@@ -193,3 +193,11 @@ header .nav-link:hover {
   background-repeat: repeat-y;
   background-size: 55%;
 }
+
+#map-container-google-1 iframe{
+  opacity: 50%;
+}
+
+#map-container-google-1 iframe:hover{
+  opacity: 100%;
+}
