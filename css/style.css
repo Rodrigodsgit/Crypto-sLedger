@@ -194,6 +194,12 @@ header .nav-link:hover {
   background-size: 55%;
 }
 
+.carousel{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+
 #map-container-google-1 iframe{
   opacity: 50%;
 }
