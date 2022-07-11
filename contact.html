@@ -48,7 +48,7 @@
       </div>
     </header>
 
-    <form class="contact">
+   <form class="contact">
       <div class="form-group">
         <label class="text" for="exampleInputPassword1">Nome</label>
         <input type="text" class="form-control" id="exampleInputText" placeholder="Nome Completo">
@@ -66,15 +66,15 @@
       <div class="form-group row">
         <div class="col-md-2 mb-3">
           <label class="text" for="validationDefault04">*DDD</label>
-          <input type="text" class="form-control" id="validationDefault04" placeholder="DDD" required>
+          <input type="text" class="form-control" id="validationDefault04" pattern="[0-9]{2}" placeholder="xx" required>
         </div>
           <div class="col-md-4 mb-3">
             <label class="text" for="validationDefault04">*Celular</label>
-            <input type="text" class="form-control" id="validationDefault04" placeholder="Celular" required>
+            <input type="tel" class="form-control" id="validationDefault05" pattern="[0-9]{5}-[0-9]{4}" placeholder="xxxxx-xxxx" required>
           </div>
         <div class="col-md-6 mb-3">
           <label class="text" for="validationDefault05">*CPF</label>
-          <input type="text" class="form-control" id="validationDefault05" placeholder="CPF" required>
+          <input type="text" class="form-control" id="validationDefault06" pattern="[0-9]{11}"" placeholder="xxxxxxxxxxx" required>
         </div>
       </div>
 
