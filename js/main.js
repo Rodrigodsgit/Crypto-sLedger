@@ -19,13 +19,13 @@ const mktPrice = {
 };
 
 $.ajax(mktPrice).done(function (response) {
- btc.innerHTML = response.bitcoin.brl.toLocaleString("de-DE", {
+ btc.innerHTML = response.bitcoin.brl.toLocaleString('pt-BR', {
     maximumFractionDigits: 2,
   });
-  eth.innerHTML = response.ethereum.brl.toLocaleString("de-DE", {
+  eth.innerHTML = response.ethereum.brl.toLocaleString('pt-BR', {
     maximumFractionDigits: 2,
   });
-  usdt.innerHTML = response.tether.brl.toLocaleString("de-DE", {
+  usdt.innerHTML = response.tether.brl.toLocaleString('pt-BR', {
     maximumFractionDigits: 2,
   });
 
