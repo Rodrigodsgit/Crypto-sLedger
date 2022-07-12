@@ -164,19 +164,48 @@ header .nav-link:hover {
   color: var(--sub-title-card);
   font-weight: 500;
 }
-.market-data {
-  padding: 7px 14px;
-  background-color: var(--bg-color-mkt-up);
+/* Cripto Cards color Up Market*/
+.market-data[data-market-color="up-color"] {
+  padding: 7px 7px;
+  background: var(--bg-color-mkt-up);
   align-items: center;
   gap: 16px;
   width: 99px;
   height: 38px;
   border-radius: 50px;
 }
-.market-data .mkt-up {
+.market-data[data-market-color="up-color"] .fas {
+  color: var(--mkt-up-color);
+  font-family: "FontAwesome";
+  font-size: 14px;
+  font-weight: 100;
+}
+.market-data[data-market-color="up-color"] .mkt-up {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: var(--mkt-up-color);
   font-weight: 500;
+}
+/* Cripto Cards color Down Market*/
+.market-data[data-market-color="down-color"] {
+  padding: 7px 7px;
+  background: var(--bg-color-mkt-down);
+  align-items: center;
+  gap: 16px;
+  width: 99px;
+  height: 38px;
+  border-radius: 50px;
+}
+.market-data[data-market-color="down-color"] .fas {
+  color: var(--mkt-down-color);
+  font-family: "FontAwesome";
+  font-size: 14px;
+  font-weight: 100;
+}
+.market-data[data-market-color="down-color"] .mkt-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--mkt-down-color);
 }
 .cripto-cards {
   padding-top: 205px;
