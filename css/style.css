@@ -274,7 +274,7 @@ header .nav-link:hover {
   padding: 10%;
 }
 
-.title{
+.titleMain{
   color: var(--simple-title);
   padding-top: 8%;
   padding-left:31%;
@@ -613,7 +613,7 @@ header .nav-link:hover {
 
 .main-timeline .description{text-align:center}
 
-.titulo{
+.titleMain{
   color: var(--simple-title);
   padding-top: 20%;
   padding-left:5%;
