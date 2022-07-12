@@ -19,19 +19,22 @@ const mktPrice = {
 };
 
 $.ajax(mktPrice).done(function (response) {
-  btc.innerHTML = response.bitcoin.brl;
-  eth.innerHTML = response.ethereum.brl;
-  usdt.innerHTML = response.tether.brl;
+ btc.innerHTML = response.bitcoin.brl.toLocaleString("de-DE", {
+    maximumFractionDigits: 2,
+  });
+  eth.innerHTML = response.ethereum.brl.toLocaleString("de-DE", {
+    maximumFractionDigits: 2,
+  });
+  usdt.innerHTML = response.tether.brl.toLocaleString("de-DE", {
+    maximumFractionDigits: 2,
+  });
 
-  // Convertendo o resultados da API em varáveis
 
   var btcChange24h, ethChange24h, usdtChange24h;
   btcChange24h = parseFloat(response.bitcoin.brl_24h_change).toFixed(1);
   ethChange24h = parseFloat(response.ethereum.brl_24h_change).toFixed(1);
   usdtChange24h = parseFloat(response.tether.brl_24h_change).toFixed(1);
-  console.log(btcChange24h, ethChange24h, usdtChange24h);
 
-  // Mudar a cor dos percentuais de acordo com os percentuias
 
   var colorChangeBtc24h,
     colorChangeEth24h,
@@ -49,7 +52,7 @@ $.ajax(mktPrice).done(function (response) {
     btcChange24h =
       iconUp + '<span class="mkt-up">' + btcChange24h + "%" + "</span>";
   }
-  console.log(colorChangeBtc24h);
+
 
   if (ethChange24h < 0) {
     colorChangeEth24h = "down-color";
@@ -60,7 +63,6 @@ $.ajax(mktPrice).done(function (response) {
     ethChange24h =
       iconUp + '<span class="mkt-up">' + ethChange24h + "%" + "</span>";
   }
-  console.log(colorChangeEth24h);
 
   if (usdtChange24h < 0) {
     colorChangeUsdt24h = "down-color";
@@ -71,9 +73,8 @@ $.ajax(mktPrice).done(function (response) {
     usdtChange24h =
       iconUp + '<span class="mkt-up">' + usdtChange24h + "%" + "</span>";
   }
-  console.log(colorChangeUsdt24h);
 
-  // Testando 1 2 3
+
 
   marketData.innerHTML =
     '<div class="market-data d-flex" data-market-color="' +
