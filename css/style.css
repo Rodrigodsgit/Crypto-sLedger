@@ -625,3 +625,10 @@ header .nav-link:hover {
   padding-left:5%;
 }
 }
+
+@media only screen and (max-width:279px){
+    .titleMain{
+      padding-top: 40%;
+    }
+
+}
