@@ -19,7 +19,9 @@
 		<li><a href="#kanban"> Kanban</li>
     <li><a href="#figma"> Figma</li>
 		<li><a href="#css"> Css  </a></li>
-		<li><a href="#html"> Html </a> </li>
+		<li><a href="#html"> Html - Página Principal </a> </li>
+    <li><a href="#htmlc"> Html - Contato</a> </li>
+    <li><a href="#htmllt"> Html - Linha do Tempo</a> </li>
 		<li><a href="#js"> Java Script </a></li>
     <li><a href="#deploy"> Como executar </a></li>
 		<li><a href="#conclusao"> Conclusão </a> </li>
@@ -125,7 +127,19 @@ html {
 ```
 
 <br></br>
-<h1 id="html">HTML</h1>
+<h1 id="html">HTML - Página Principal</h1>
+
+### Header
+Descrição
+
+### Carousel
+Descrição
+
+### Cards
+Descrição
+
+### Lista com valores de criptos
+Descrição
 
 ### Mapa
 Para a criação do mapa, primeiro foi escolhido um local fictício, sendo este a sede da [Gama Academy](https://g.page/gamaacademybr?share), em seguida utilizou-se o BootStrap para implementar o mapa, com as classes referentes a renderização do mapa, e o iframe disponibilizado pelo Google Maps, além de uma trasição utilizando hover no CSS.
@@ -136,6 +150,12 @@ Para a criação do rodapé, tendo como base o layout construído inicialmente n
 - Botões de navegação para as demais páginas (Home, Informações e Contato)
 - Informações de contato (Endereço, Telefone e E-mail)
 
+
+<br></br>
+<h1 id="htmlc">HTML - Contato </h1>
+
+<br></br>
+<h1 id="htmllt">HTML - Linha do Tempo</h1>
 
 <br></br>
 <h1 id="js">JavaScript</h1>
