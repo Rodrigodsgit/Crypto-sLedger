@@ -13,8 +13,8 @@
 
 </p>
 
-## Introdução 
-Para uma melhor organização e padrinização do nosso trabalho, usaremos referenciadores do Css, que podem se acessados diretamente pelo `root`.
+## **Introdução**
+Para uma melhor organização e padrinização do nosso trabalho, usaremos referenciadores do CSS, que podem se acessados diretamente pelo `root`.
 - Na pasta css você encontrará:
 ```css
 css
@@ -88,6 +88,23 @@ html {
 
 ...
 ```
-## Conclusão
+
+## **Layout Figma**
+Para a inicialização da construção da **Landing Page**, criou-se um layout utilizando a ferramenta [Figma](https://www.figma.com/), com o desenho inicial que a página teria.
+
+O layout construído para este projeto pode ser acessado pelo seguinte link: [Figma CriptoGama](https://www.figma.com/file/4ehk8bnEpPiWYGK06Mh0Fi/CriptoGma).
+
+## **Landing Page**
+
+### X. Mapa
+Para a criação do mapa, primeiro foi escolhido um local fictício, sendo este a sede da [Gama Academy](https://g.page/gamaacademybr?share), em seguida utilizou-se o BootStrap para implementar o mapa, com as classes referentes a renderização do mapa, e o iframe disponibilizado pelo Google Maps, além de uma trasição utilizando hover no CSS.
+
+### X. Footer
+Para a criação do rodapé, tendo como base o layout construído inicialmente no Figma, utilizou-se o BootStrap para implementação do mesmo, com as classes referentes a renderização do rodapé, contendo os seguintes componentes com hiperlinks:
+- Ícones das principais redes sociais (Linkedin, Instagram e Twitter)
+- Botões de navegação para as demais páginas (Home, Informações e Contato)
+- Informações de contato (Endereço, Telefone e E-mail)
+
+## **Conclusão**
 Dessa forma podemos concluir que estas configurações iniciais estão em teste neste momento e poderão sofrer alterações para que assim possar oferecer
 uma melhor experiência ao usuário final.
