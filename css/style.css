@@ -233,6 +233,7 @@ header .nav-link:hover {
 
 #map-container-google-1 iframe{
   opacity: 50%;
+  transition: 0.5s;
 }
 
 #map-container-google-1 iframe:hover{
