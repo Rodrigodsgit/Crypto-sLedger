@@ -37,9 +37,11 @@ Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo
 <br></br>
 <h1 id="figma">Figma</h1>
 
-### Exemplo
-Exemplo
 
+### Layout Figma
+Para a inicialização da construção da **Landing Page**, criou-se um layout utilizando a ferramenta [Figma](https://www.figma.com/), com o desenho inicial que a página teria.
+
+O layout construído para este projeto pode ser acessado pelo seguinte link: [Figma CriptoGama](https://www.figma.com/file/4ehk8bnEpPiWYGK06Mh0Fi/CriptoGma).
 
 
 
@@ -122,34 +124,21 @@ html {
 ...
 ```
 
-## **Layout Figma**
-Para a inicialização da construção da **Landing Page**, criou-se um layout utilizando a ferramenta [Figma](https://www.figma.com/), com o desenho inicial que a página teria.
+<br></br>
+<h1 id="html">HTML</h1>
 
-O layout construído para este projeto pode ser acessado pelo seguinte link: [Figma CriptoGama](https://www.figma.com/file/4ehk8bnEpPiWYGK06Mh0Fi/CriptoGma).
-
-## **Landing Page**
-
-### X. Mapa
+### Mapa
 Para a criação do mapa, primeiro foi escolhido um local fictício, sendo este a sede da [Gama Academy](https://g.page/gamaacademybr?share), em seguida utilizou-se o BootStrap para implementar o mapa, com as classes referentes a renderização do mapa, e o iframe disponibilizado pelo Google Maps, além de uma trasição utilizando hover no CSS.
 
-### X. Footer
+### Footer
 Para a criação do rodapé, tendo como base o layout construído inicialmente no Figma, utilizou-se o BootStrap para implementação do mesmo, com as classes referentes a renderização do rodapé, contendo os seguintes componentes com hiperlinks:
 - Ícones das principais redes sociais (Linkedin, Instagram e Twitter)
 - Botões de navegação para as demais páginas (Home, Informações e Contato)
 - Informações de contato (Endereço, Telefone e E-mail)
 
-## **Conclusão**
-Dessa forma podemos concluir que estas configurações iniciais estão em teste neste momento e poderão sofrer alterações para que assim possar oferecer
-uma melhor experiência ao usuário final.
 
 <br></br>
-<h1 id="html">HTML</h1>
-
-### Exemplo
-Exemplo
-
-<br></br>
-<h1 id="js">Java Script</h1>
+<h1 id="js">JavaScript</h1>
 
 ### Exemplo
 Exemplo
