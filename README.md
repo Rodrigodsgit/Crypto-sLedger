@@ -13,7 +13,40 @@
 
 </p>
 
-## Introdução 
+<h1 align="center"> Sumário </h1>
+<div id="sumario">
+	<ul>
+		<li><a href="#kanban"> Kanban</li>
+    <li><a href="#figma"> Figma</li>
+		<li><a href="#css"> Css  </a></li>
+		<li><a href="#html"> Html </a> </li>
+		<li><a href="#js"> Java Script </a></li>
+    <li><a href="#deploy"> Como executar </a></li>
+		<li><a href="#conclusao"> Conclusão </a> </li>
+	</ul>	
+</div>
+
+<br></br>
+<h1 id="kanban">Kanban</h1>
+
+### Estruturação
+Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo Kanban feito na ferramenta Trello. Sua estrutura foi feita da seguinte forma:
+
+
+
+<br></br>
+<h1 id="figma">Figma</h1>
+
+### Exemplo
+Exemplo
+
+
+
+
+<br></br>
+<h1 id="css">CSS</h1> 
+
+### Introdução
 Para uma melhor organização e padrinização do nosso trabalho, usaremos referenciadores do Css, que podem se acessados diretamente pelo `root`.
 - Na pasta css você encontrará:
 ```css
@@ -91,3 +124,27 @@ html {
 ## Conclusão
 Dessa forma podemos concluir que estas configurações iniciais estão em teste neste momento e poderão sofrer alterações para que assim possar oferecer
 uma melhor experiência ao usuário final.
+
+<br></br>
+<h1 id="html">HTML</h1>
+
+### Exemplo
+Exemplo
+
+<br></br>
+<h1 id="js">Java Script</h1>
+
+### Exemplo
+Exemplo
+
+<br></br>
+<h1 id="deploy">Como Executar</h1>
+
+### Exemplo
+Exemplo
+
+<br></br>
+<h1 id="conclusao">Conclusão</h1>
+
+### Exemplo
+Exemplo
