@@ -24,7 +24,6 @@
     <li><a href="#htmllt"> Html - Linha do Tempo</a> </li>
 		<li><a href="#js"> Java Script </a></li>
     <li><a href="#deploy"> Como executar </a></li>
-		<li><a href="#conclusao"> Conclusão </a> </li>
 	</ul>	
 </div>
 
