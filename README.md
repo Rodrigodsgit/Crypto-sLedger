@@ -147,7 +147,7 @@ Exemplo
 <h1 id="deploy">Como Executar</h1>
 
 ### Deploy 
-Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do Netlify, assim como foi solicitado , e seu deploy pode ser acessado no seguinte <a href=" https://starlit-nougat-eb55ac.netlify.app/index.html">link</a>.
+Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do <a href=" https://www.netlify.com/">Netlify</a> , assim como foi solicitado , e seu deploy pode ser acessado no seguinte link: <a href=" https://starlit-nougat-eb55ac.netlify.app/index.html">CriptoGama</a>.
 
 Além disso, pode-se optar ainda por clonar este repositório e utilizar, por exemplo, a extensão Live Server do VSCode para rodar o site localmente.
 
