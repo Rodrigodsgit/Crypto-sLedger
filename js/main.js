@@ -19,22 +19,20 @@ const mktPrice = {
 };
 
 $.ajax(mktPrice).done(function (response) {
- btc.innerHTML = response.bitcoin.brl.toLocaleString('pt-BR', {
+  btc.innerHTML = response.bitcoin.brl.toLocaleString("pt-BR", {
     maximumFractionDigits: 2,
   });
-  eth.innerHTML = response.ethereum.brl.toLocaleString('pt-BR', {
+  eth.innerHTML = response.ethereum.brl.toLocaleString("pt-BR", {
     maximumFractionDigits: 2,
   });
-  usdt.innerHTML = response.tether.brl.toLocaleString('pt-BR', {
+  usdt.innerHTML = response.tether.brl.toLocaleString("pt-BR", {
     maximumFractionDigits: 2,
   });
-
 
   var btcChange24h, ethChange24h, usdtChange24h;
   btcChange24h = parseFloat(response.bitcoin.brl_24h_change).toFixed(1);
   ethChange24h = parseFloat(response.ethereum.brl_24h_change).toFixed(1);
   usdtChange24h = parseFloat(response.tether.brl_24h_change).toFixed(1);
-
 
   var colorChangeBtc24h,
     colorChangeEth24h,
@@ -52,7 +50,6 @@ $.ajax(mktPrice).done(function (response) {
     btcChange24h =
       iconUp + '<span class="mkt-up">' + btcChange24h + "%" + "</span>";
   }
-
 
   if (ethChange24h < 0) {
     colorChangeEth24h = "down-color";
@@ -73,9 +70,6 @@ $.ajax(mktPrice).done(function (response) {
     usdtChange24h =
       iconUp + '<span class="mkt-up">' + usdtChange24h + "%" + "</span>";
   }
-
-
-
   marketData.innerHTML =
     '<div class="market-data d-flex" data-market-color="' +
     colorChangeBtc24h +
