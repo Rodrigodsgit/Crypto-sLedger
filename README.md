@@ -40,13 +40,12 @@ Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo
 
 Além de adotar o método Kanban, cada atividade a ser executada foi relacionada com uma etiqueta que equivale a quantas horas, em média, levariam para ela ser feita, facilantando assim a organização e separação de atividades para cada membro. Abaixo podemos ver as etiquetas usadas e neste <a href=" https://trello.com/invite/b/iU37sCzw/ae9a9a300e5e1837bc020126144c978b/kanban-quadro">link</a> pode-se acessar o quadro no Trello.
 
-<center> 
+
 <img  src="./imgDoc/kanban3.png">
 <h6 align="center"> Imagem das etiquetas Kanban  </h6>
-</center>
+
 <br></br>
 <h1 id="figma">Figma</h1>
-
 
 ### Layout Figma
 Para a inicialização da construção da **Landing Page**, criou-se um layout utilizando a ferramenta [Figma](https://www.figma.com/), com o desenho inicial que a página teria.
