@@ -33,7 +33,15 @@
 ### Estruturação
 Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo Kanban feito na ferramenta Trello. Sua estrutura foi feita da seguinte forma:
 
+<img src="./imgDoc/kanban1.png" > 
+<h6 align="center"> Imagem do quadro Kanban 1 </h6>
+<img src="./imgDoc/kanban2.png" >
+<h6 align="center"> Imagem do quadro Kanban 2 </h6>
 
+Além de adotar o método Kanban, cada atividade a ser executada foi relacionada com uma etiqueta que equivale a quantas horas, em média, levariam para ela ser feita, facilantando assim a organização e separação de atividades para cada membro. Abaixo podemos ver as etiquetas usadas e neste <a href=" https://trello.com/invite/b/iU37sCzw/ae9a9a300e5e1837bc020126144c978b/kanban-quadro">link</a> pode-se acessar o quadro no Trello.
+
+<img  src="./imgDoc/kanban3.png" >
+<h6 align="center"> Imagem das etiquetas Kanban  </h6>
 
 <br></br>
 <h1 id="figma">Figma</h1>
