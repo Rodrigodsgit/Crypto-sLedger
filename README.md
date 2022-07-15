@@ -38,7 +38,7 @@ Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo
 <img src="./imgDoc/kanban2.png" >
 <h6 align="center"> Imagem do quadro Kanban 2 </h6>
 
-Além de adotar o método Kanban, cada atividade a ser executada foi relacionada com uma etiqueta que equivale a quantas horas, em média, levariam para ela ser feita, facilantando assim a organização e separação de atividades para cada membro. Abaixo podemos ver as etiquetas usadas e neste <a href=" https://trello.com/invite/b/iU37sCzw/ae9a9a300e5e1837bc020126144c978b/kanban-quadro">link</a> pode-se acessar o quadro no Trello.
+Além de adotar o método Kanban, cada atividade a ser executada foi relacionada com uma etiqueta que equivale a quantas horas, em média, levariam para ela ser feita, facilantando assim a organização e separação de atividades para cada membro. Abaixo podemos ver as etiquetas usadas e neste [link](https://trello.com/invite/b/iU37sCzw/ae9a9a300e5e1837bc020126144c978b/kanban-quadro) pode-se acessar o quadro no Trello.
 
 
 <img  src="./imgDoc/kanban3.png">
@@ -175,7 +175,7 @@ Exemplo
 <h1 id="deploy">Como Executar</h1>
 
 ### Deploy 
-Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do <a href=" https://www.netlify.com/">Netlify</a> , assim como foi solicitado , e seu deploy pode ser acessado no seguinte link: <a href=" https://starlit-nougat-eb55ac.netlify.app/index.html">CriptoGama</a>.
+Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do [Netlify](https://www.netlify.com/), assim como foi solicitado , e seu deploy pode ser acessado no seguinte link:[CriptoGama.](https://starlit-nougat-eb55ac.netlify.app/index.html)
 
 Além disso, pode-se optar ainda por clonar este repositório e utilizar, por exemplo, a extensão Live Server do VSCode para rodar o site localmente.
 
