@@ -42,7 +42,7 @@ Além de adotar o método Kanban, cada atividade a ser executada foi relacionada
 
 
 <img  src="./imgDoc/kanban3.png">
-<h6 align="center"> Imagem das etiquetas Kanban  </h6>
+<h6> Imagem das etiquetas Kanban  </h6>
 
 <br></br>
 <h1 id="figma">Figma</h1>
