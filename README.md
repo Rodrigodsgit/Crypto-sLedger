@@ -132,10 +132,11 @@ html {
 Descrição
 
 ### Carousel
-Descrição
+Para construção do corousel foi ultilizdo o framework Bootstrap, o componente corousel com indicadores, juntamente com os controles. Foi escolhido tres imagens para compor o carousel. No CSS foi usado duas classes : .cripto-carousel - seguindo o layout da pagina 
+                                                        .carousel - para o carousel ficar com as dimensões desejadas.
 
 ### Cards
-Descrição
+Para os cards foi ultilizado o framework Bootstrap, o componente cards, com imagnes e texto. No CSS foi usado a classe : .cripto-cards - seguindo o padrão do layout.
 
 ### Lista com valores de criptos
 Descrição
