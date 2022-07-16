@@ -206,6 +206,13 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
 }
+footer .nav-link {
+  padding-left: 0;
+}
+footer .text-styling {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
 /* Cripto Cards color Up Market*/
 .market-data[data-market-color="up-color"] {
   padding: 7px 7px;
