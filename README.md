@@ -164,7 +164,7 @@ Visando trazer algumas funcionalidades a mais, a Lading Page desenvolvida conta 
 <br></br>
 <h1 id="htmllt">HTML - Linha do Tempo</h1>
 
-Seguindo a mesma motivação da página "Contato", foi desenvolvido outro arquivo contendo uma breve linha do tempo a respeito da tecnlogica Blockchain, seu acesso é pelo o botão Iniciar na página inicial. O arquivo hmtl referente a essa págica é o [TimeLine]https://github.com/Rodrigodsgit/Crypto-sLedger/blob/main/timeLine.html).
+Seguindo a mesma motivação da página "Contato", foi desenvolvido outro arquivo contendo uma breve linha do tempo a respeito da tecnlogica Blockchain, seu acesso é pelo o botão Iniciar na página inicial. O arquivo hmtl referente a essa págica é o [TimeLine](https://github.com/Rodrigodsgit/Crypto-sLedger/blob/main/timeLine.html).
 
 
 <br></br>
