@@ -1,4 +1,4 @@
-<h1 align=center>Crypto-sLedger - <a target="_blank" href="https://starlit-nougat-eb55ac.netlify.app/" rel="nofollow">Demo</a> </h1>
+<h1 align=center>Crypto-sLedger - <a target="_blank" href="https://starlit-nougat-eb55ac.netlify.app/" rel="nofollow">Versão 1.0</a> </h1>
 
 
 <p align=center>
@@ -12,6 +12,14 @@
  <img alt="GitHub" src="https://img.shields.io/github/license/mesquitaoliveira/profile-card?style=for-the-badge">
 
 </p>
+
+<h1>  👥Equipe: <br></h1>
+<uL> 
+	<li>Alda Aparecida Menezes Ferreira <br></li>
+	<li>Lucas José Martins de Lara <br></li>
+	<li>Rodrigo Damasceno Sampaio <br></li>
+	<li>Ismael de Mesquita Freire <br></li>
+</ul>
 
 <h1 align="center"> Sumário </h1>
 <div id="sumario">
