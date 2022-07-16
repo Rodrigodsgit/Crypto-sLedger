@@ -30,7 +30,6 @@
 <br></br>
 <h1 id="kanban">Kanban</h1>
 
-### Estruturação
 Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo Kanban feito na ferramenta Trello. Sua estrutura foi feita da seguinte forma:
 
 <img src="./imgDoc/kanban1.png" > 
@@ -40,14 +39,12 @@ Para o controle do fluxo de desenvolvimento deste código foi utilizado o modelo
 
 Além de adotar o método Kanban, cada atividade a ser executada foi relacionada com uma etiqueta que equivale a quantas horas, em média, levariam para ela ser feita, facilantando assim a organização e separação de atividades para cada membro. Abaixo podemos ver as etiquetas usadas e neste [link](https://trello.com/invite/b/iU37sCzw/ae9a9a300e5e1837bc020126144c978b/kanban-quadro) pode-se acessar o quadro no Trello.
 
-
 <img  src="./imgDoc/kanban3.png">
 <h6> Imagem das etiquetas Kanban  </h6>
 
 <br></br>
 <h1 id="figma">Figma</h1>
 
-### Layout Figma
 Para a inicialização da construção da **Landing Page**, criou-se um layout utilizando a ferramenta [Figma](https://www.figma.com/), com o desenho inicial que a página teria.
 
 O layout construído para este projeto pode ser acessado pelo seguinte link: [Figma CriptoGama](https://www.figma.com/file/4ehk8bnEpPiWYGK06Mh0Fi/CriptoGma).
@@ -162,8 +159,13 @@ Para a criação do rodapé, tendo como base o layout construído inicialmente n
 <br></br>
 <h1 id="htmlc">HTML - Contato </h1>
 
+Visando trazer algumas funcionalidades a mais, a Lading Page desenvolvida conta com outra página html que pode ser acessada pela navbar no botão de Contato. A partir disso o usuário é encaminhado para outra página com um formulário com campos para informações necessárias para a comunicação. O arquivo hmtl referente a essa págica é o [Contact](https://github.com/Rodrigodsgit/Crypto-sLedger/blob/main/contact.html)
+
 <br></br>
 <h1 id="htmllt">HTML - Linha do Tempo</h1>
+
+Seguindo a mesma motivação da página "Contato", foi desenvolvido outro arquivo contendo uma breve linha do tempo a respeito da tecnlogica Blockchain, seu acesso é pelo o botão Iniciar na página inicial. O arquivo hmtl referente a essa págica é o [TimeLine]https://github.com/Rodrigodsgit/Crypto-sLedger/blob/main/timeLine.html).
+
 
 <br></br>
 <h1 id="js">JavaScript</h1>
@@ -175,7 +177,7 @@ Exemplo
 <h1 id="deploy">Como Executar</h1>
 
 ### Deploy 
-Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do [Netlify](https://www.netlify.com/), assim como foi solicitado , e seu deploy pode ser acessado no seguinte link:[CriptoGama.](https://starlit-nougat-eb55ac.netlify.app/index.html)
+Para facilitar a visualização da aplicação, ela já foi colocada no ar com auxílio do [Netlify](https://www.netlify.com/), assim como foi solicitado , e seu deploy pode ser acessado no seguinte link: [CriptoGama.](https://starlit-nougat-eb55ac.netlify.app/index.html)
 
 Além disso, pode-se optar ainda por clonar este repositório e utilizar, por exemplo, a extensão Live Server do VSCode para rodar o site localmente.
 
