@@ -16,9 +16,9 @@
 <h1>  👥Equipe: <br></h1>
 <uL> 
 	<li> <a href="https://www.linkedin.com/in/aldamenezes/">Alda Aparecida Menezes Ferreira  <br></li>
-	<li> <a href="https://www.linkedin.com/in/aldamenezes/"> Lucas José Martins de Lara<br></li>
+	<li> <a href="https://www.linkedin.com/in/lucasjmlara/"> Lucas José Martins de Lara<br></li>
 	<li>  <a href="https://www.linkedin.com/in/rodrigo-damasceno-41036b192/"> Rodrigo Damasceno Sampaio <br></li>
-	<li>Github <a href="https://www.linkedin.com/in/ismael-mesquita-136900113/"> Ismael de Mesquita Freire <br></li>
+	<li> <a href="https://www.linkedin.com/in/ismael-mesquita-136900113/"> Ismael de Mesquita Freire <br></li>
 </ul>
 
 <h1 align="center"> Sumário </h1>
