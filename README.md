@@ -142,7 +142,7 @@ html {
 <h1 id="html">HTML - Página Principal</h1>
 
 ### Header
-Descrição
+O header com a barra de navegação foi feita contendo 4 botões, sendo 3 deles para navegar por alguns tópicos da página principal, sendo eles: Home; Informações e Mercado. E o 4º botão é um de atendimento que envia o usuário para a página contact, na qual é possível entrar em contato com a empresa. O header foi feito utilizando o bootstrap para que em telas menores a navbar colapse e vire um menu hambúrguer.
 
 ### Carousel
 Para construção do corousel foi ultilizdo o framework Bootstrap, o componente corousel com indicadores, juntamente com os controles. Foi escolhido tres imagens para compor o carousel. No CSS foi usado duas classes : .cripto-carousel - seguindo o layout da pagina 
@@ -150,9 +150,6 @@ Para construção do corousel foi ultilizdo o framework Bootstrap, o componente 
 
 ### Cards
 Para os cards foi ultilizado o framework Bootstrap, o componente cards, com imagnes e texto. No CSS foi usado a classe : .cripto-cards - seguindo o padrão do layout.
-
-### Lista com valores de criptos
-Descrição
 
 ### Mapa
 Para a criação do mapa, primeiro foi escolhido um local fictício, sendo este a sede da [Gama Academy](https://g.page/gamaacademybr?share), em seguida utilizou-se o BootStrap para implementar o mapa, com as classes referentes a renderização do mapa, e o iframe disponibilizado pelo Google Maps, além de uma trasição utilizando hover no CSS.
