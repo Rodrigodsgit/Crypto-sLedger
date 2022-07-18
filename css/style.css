@@ -199,6 +199,111 @@ header .nav-link:hover {
   padding-top: 8px;
   text-align: justify;
 }
+
+/* Tabela de Cotações */
+.table-bg {
+  background: var(--card-background);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(3px);
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 4px;
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+.table {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  padding-bottom: 1rem;
+  color: #212529;
+  margin-bottom: 0;
+}
+.table th:first-child,
+.table td:first-child {
+  width: 10px;
+  position: sticky;
+  left: 0;
+  color: var(--sub-title);
+  background-color: var(--back-ground);
+}
+/* Definindo o a largura da 5ª coluna */
+.table th:last-child,
+.table td:last-child {
+  width: 128px;
+}
+/* Definindo o a largura da 2ª coluna */
+.table th:nth-child(2),
+td:nth-child(2) {
+  left: 84px;
+  width: 210px;
+  background: var(--back-ground);
+}
+
+table thead th {
+  color: var(--sub-title);
+}
+.table th {
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+}
+.table td {
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  color: var(--sub-title);
+  text-align: center;
+  white-space: nowrap;
+}
+.table img {
+  width: 44px;
+  height: 44px;
+}
+.table .btn {
+  width: 118px;
+  height: 32px;
+  background: rgba(0, 222, 141, 0.75);
+  border-radius: 10px;
+  justify-content: center;
+  padding: 4px 24px;
+  color: var(--pure-white);
+}
+.sticky-second-col {
+  background-color: var(--back-ground);
+  position: sticky;
+}
+.sticky-col-header {
+  min-width: 20px;
+  max-width: 20px;
+  left: 65px;
+  position: sticky;
+}
+.coin-data-table {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.coin-data-table span {
+  font-size: 18px;
+  color: var(--sub-title);
+}
+.coin-data-table .symbol {
+  text-transform: uppercase;
+}
+/* Data attribute Up Market */
+.table td[data-colorMarket="up-market"] {
+  color: var(--mkt-up-color);
+}
+/* Data attribute Down Market */
+.table td[data-colorMarket="down-market"] {
+  color: var(--mkt-down-color);
+}
+.cripto-table h1 {
+  padding-top: 90px;
+  font-weight: 700;
+  color: var(--simple-title);
+  font-size: 36px;
+}
 /* Footer */
 
 footer {
@@ -607,5 +712,3 @@ footer .text-styling {
 .main-timeline .timeline:last-child:nth-child(even) {
   margin: 0;
 }
-
-

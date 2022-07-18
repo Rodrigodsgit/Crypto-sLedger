@@ -2,7 +2,12 @@
 let btc = document.getElementById("bitcoin");
 let eth = document.getElementById("ethereum");
 let usdt = document.getElementById("tether");
-// Acessando as div's
+// Divs´s tabela
+let bctTable = document.getElementById("btc-price-table");
+let ethTable = document.getElementById("eth-price-table");
+let usdtTable = document.getElementById("usdt-price-table");
+let bnbTable = document.getElementById("bnb-price-table");
+// Pegando os elementos com mesma div
 let marketData = document.querySelectorAll(".market-data")[0];
 let marketData1 = document.querySelectorAll(".market-data")[1];
 let marketData2 = document.querySelectorAll(".market-data")[2];
@@ -10,7 +15,7 @@ let marketData2 = document.querySelectorAll(".market-data")[2];
 const mktPrice = {
   async: true,
   crossDomain: true,
-  url: "https://coingecko.p.rapidapi.com/simple/price?ids=bitcoin%2Cethereum%2Ctether&vs_currencies=brl&include_last_updated_at=true&include_market_cap=true&include_24hr_change=true&include_24hr_vol=false",
+  url: "https://coingecko.p.rapidapi.com/simple/price?ids=bitcoin%2Cethereum%2Cbinancecoin%2Ctether&vs_currencies=brl&include_last_updated_at=true&include_24hr_change=true&include_24hr_vol=true",
   method: "GET",
   headers: {
     "X-RapidAPI-Key": "9043aec9e4msh6d578c5423f11a5p156307jsn08cc7ae4e58b",
@@ -26,6 +31,19 @@ $.ajax(mktPrice).done(function (response) {
     maximumFractionDigits: 2,
   });
   usdt.innerHTML = response.tether.brl.toLocaleString("pt-BR", {
+    maximumFractionDigits: 2,
+  });
+  // Inserindo as cotações na tabela
+  bctTable.innerHTML = response.bitcoin.brl.toLocaleString("pt-BR", {
+    maximumFractionDigits: 2,
+  });
+  ethTable.innerHTML = response.ethereum.brl.toLocaleString("pt-BR", {
+    maximumFractionDigits: 2,
+  });
+  usdtTable.innerHTML = response.tether.brl.toLocaleString("pt-BR", {
+    maximumFractionDigits: 2,
+  });
+  bnbTable.innerHTML = response.binancecoin.brl.toLocaleString("pt-BR", {
     maximumFractionDigits: 2,
   });
 
