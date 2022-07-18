@@ -712,3 +712,7 @@ footer .text-styling {
 .main-timeline .timeline:last-child:nth-child(even) {
   margin: 0;
 }
+
+.map-container{
+  padding-top: 15%;
+}
