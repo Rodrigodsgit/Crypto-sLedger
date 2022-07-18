@@ -48,11 +48,11 @@
    <form class="contact">
       <div class="form-group">
         <label class="text" for="exampleInputPassword1">*Nome</label>
-        <input type="text" class="form-control" id="exampleInputText" placeholder="Nome Completo" required>
+        <input type="text" name="name" class="form-control" id="exampleInputText" placeholder="Nome Completo" required>
       </div>
       <div class="form-group">
         <label class="text" for="exampleInputEmail1">*Endereço de email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" required>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" required>
         <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
       </div>
       <div class="form-group">
@@ -63,11 +63,11 @@
       <div class="form-group row">
         <div class="col-md-2 mb-3">
           <label class="text" for="validationDefault04">*DDD</label>
-          <input type="text" class="form-control" id="validationDefault04" pattern="[0-9]{2}" placeholder="xx" required>
+          <input type="text" name="tel" class="form-control" id="validationDefault04" pattern="[0-9]{2}" placeholder="xx" required>
         </div>
           <div class="col-md-4 mb-3">
             <label class="text" for="validationDefault04">*Celular</label>
-            <input type="tel" class="form-control" id="validationDefault05" pattern="[0-9]{5}-[0-9]{4}" placeholder="xxxxx-xxxx" required>
+            <input type="tel" name="tel" class="form-control" id="validationDefault05" pattern="[0-9]{9}" placeholder="xxxxxxxxx" required>
           </div>
         <div class="col-md-6 mb-3">
           <label class="text" for="validationDefault05">*CPF</label>
