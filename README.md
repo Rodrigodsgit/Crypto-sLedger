@@ -8,8 +8,8 @@
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Css">
  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mesquitaoliveira/profile-card-vue3?style=for-the-badge">
  <img alt="GitHub forks" src="https://img.shields.io/github/forks/mesquitaoliveira/desafio?style=for-the-badge">
- 
- <img alt="GitHub" src="https://img.shields.io/github/license/mesquitaoliveira/profile-card?style=for-the-badge">
+
+ <img alt="GitHub" src="https://img.shields.io/github/license/Rodrigodsgit/Crypto-sLedger?style=for-the-badge">
 
 </p>
 
@@ -177,9 +177,40 @@ Seguindo a mesma motivação da página "Contato", foi desenvolvido outro arquiv
 
 <br></br>
 <h1 id="js">JavaScript</h1>
+Para atualização das cotações das criptomoedas foi usada a platarforma Rapid API, uma plataforma incrível que possui, todo tipo de API em um só lugar. Além
+da facilidade de lidar com a plataforma, ela fornece um Code Snippet pronto para ser testado.
 
-### Exemplo
-Exemplo
+### Exemplo Code Snippet
+```javascript
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://coingecko.p.rapidapi.com/simple/price?ids=%3CREQUIRED%3E&vs_currencies=%3CREQUIRED%3E",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Key": "YOUR_KEY_HERE",
+		"X-RapidAPI-Host": "coingecko.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+
+```
+### Desafios
+O principal desafio enfrentado na construcão dos cards com estilização em percentual foi a mudança de estilo do html usando ` data attribute`, uma 
+alternativa para não utilizar estilização `in line`:
+
+#### Exemplo:
+```html
+<div class="market-data d-flex" data-market-color="up-color" name="market-theme">
+  <i class="fas fa-light fa-arrow-trend-up" aria-hidden="true"></i>
+  <span class="mkt-up">4.9%</span>
+</div>
+```
+Dessa forma o estilo, muda de acordo vom os valores recebidos da API, alterando o valor do ` data attribute` de  Up para Down em caso do percentual
+ser negativo. `data-market-color="down-color"`
 
 <br></br>
 <h1 id="deploy">Como Executar</h1>
@@ -189,4 +220,18 @@ Para facilitar a visualização da aplicação, ela já foi colocada no ar com a
 
 Além disso, pode-se optar ainda por clonar este repositório e utilizar, por exemplo, a extensão Live Server do VSCode para rodar o site localmente.
 
+### Executando Localmente
+1. Primeiro passo
+```
+git clone https://github.com/Rodrigodsgit/Crypto-sLedger
+```
+2. Em seguida entre no diretório usando o terminal
+```
+cd Crypto-sLedger
+```
+3. Depois de selecionado o diretório digite no terminal
+```
+code .
+```
+Por fim poderá usar a IDE de sua escolha para testar essa aplicação.
 
